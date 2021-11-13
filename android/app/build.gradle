@@ -135,6 +135,8 @@ android {
         applicationId "com.zoom_clone"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
+        missingDimensionStrategy 'react-native-camera', 'general'
+        multiDexEnabled true
         versionCode 1
         versionName "1.0"
     }
